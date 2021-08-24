@@ -1,16 +1,5 @@
 var WPAPI = require("wpapi");
 require("dotenv").config();
-// var apiPromise = WPAPI.discover(
-//   "https://keen-jepsen.212-227-31-142.plesk.page"
-// ).then(function (site) {
-//   return site.auth({
-//     username: "root_ap5ab6eo",
-//     password: "j7Y9eRqN5@b*^0MO",
-//   });
-// });
-// apiPromise.then(function (site) {
-//   console.log(site);
-// });
 
 var wp = new WPAPI({
   endpoint: "https://keen-jepsen.212-227-31-142.plesk.page/index.php/wp-json",

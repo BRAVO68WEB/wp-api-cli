@@ -4,10 +4,21 @@ const questions = [
   {
     type: "input",
     name: "name",
-    message: "What is your name?",
+    message: "Give title :- ",
     validate: (value) => {
       if (value === "") {
-        return "Name cannot be empty";
+        return "Title cannot be empty";
+      }
+      return true;
+    },
+  },
+  {
+    type: "input",
+    name: "entry",
+    message: "Blog entry :- ",
+    validate: (value) => {
+      if (value === "") {
+        return "Entry cannot be empty";
       }
       return true;
     },
@@ -15,7 +26,7 @@ const questions = [
   {
     type: "confirm",
     name: "confirm",
-    message: "Do you like javascript?",
+    message: "Publish post ?",
     default: false,
   },
 ];
