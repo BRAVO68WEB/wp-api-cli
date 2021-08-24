@@ -1,0 +1,22 @@
+{
+  "name": "wordpress-rest-api",
+  "version": "1.0.0",
+  "description": "Intro to Wordpress Nodejs SDK",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "nodemon testBox.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "inquirer": "^8.1.2",
+    "wpapi": "^1.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
