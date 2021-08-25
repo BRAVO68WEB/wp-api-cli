@@ -9,7 +9,7 @@
     "test": "nodemon testBox.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "BRAVO68WEB",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^10.0.0",
